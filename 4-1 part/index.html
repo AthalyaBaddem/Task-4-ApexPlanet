@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- ===== Navbar ===== -->
+  <header class="navbar">
+    <div class="container">
+      <div class="logo">My Portfolio</div>
+      <nav class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="hamburger" id="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== Hero / Introduction ===== -->
+  <section id="hero" class="section-hero">
+    <div class="container">
+      <h1>Welcome to My Portfolio</h1>
+      <p>I’m, a Passionate Web Developer</p>
+    </div>
+  </section>
+
+  <!-- ===== About Section ===== -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>
+           I specialize in building interactive and responsive websites using HTML, CSS, JavaScript, and backend technologies like sql.
+With a strong foundation in both front-end and back-end development, I enjoy creating seamless user experiences and solving real-world problems through code.
+I’m always learning new technologies and love working on projects that challenge me to grow.
+          </p>
+          <p class="para">
+           <b>Skills Overview:</b> <br>
+
+              💻 Front-End: HTML, CSS, JavaScript, Responsive Design<br>
+
+                      ⚙️ Back-End: JSP, Servlets, MySQL<br>
+
+                      🛠️ Tools & Technologies: Git, GitHub, LocalStorage, Visual Studio Code, Eclipse<br>
+
+              </p>   
+                <p class="para1"> 
+<b>Personal Information:</b><br>
+          📍 Location : Hyderabad<br>
+
+          💻 Interests: Web Development, UI/UX Design, Backend Engineering<br>
+
+          🎯 Career goal: “Building impactful digital solutions that improve everyday life”<br>
+ </p>
+
+        </div>
+       
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Projects Section ===== -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <!-- Project 1 Card -->
+        <div class="project-card">
+          <img src="https://calculatorbuilders.com/wp-content/uploads/Online-calculator-12.png" alt="Project 1" />
+          <div class="project-info">
+            <h3>Project 1</h3>
+            <p>A responsive Online Calculator built with HTML, CSS, and JavaScript.</p>
+            <a href="https://github.com/AthalyaBaddem/First-Project.git" class="btn" target="_blank" rel="noopener">View</a>
+          </div>
+        </div>
+        <!-- Project 2 Card -->
+        <div class="project-card">
+          <img src="https://tse1.mm.bing.net/th?id=OIP.QG9BKJWkRHjprGJ0zo6CHQHaFE&pid=Api&P=0&h=180" alt="Project 2" />
+          <div class="project-info">
+            <h3>Project 2</h3>
+            <p>A note‐taking app using LocalStorage for persistence.</p>
+            <a href="https://github.com/AthalyaBaddem/Notes-Taking-.git" class="btn" target="_blank" rel="noopener">View</a>
+          </div>
+        </div>
+        <!-- Project 3 Card -->
+        <div class="project-card">
+          <img src="https://miro.medium.com/v2/resize:fit:1358/1*FvSpRaCVYFAs_4bZl5cGhg.png" alt="Project 3" />
+          <div class="project-info">
+            <h3>Project 3</h3>
+            <p>Form Validation page</p>
+            <a href="https://github.com/AthalyaBaddem/Second-Project.git" class="btn" target="_blank" rel="noopener">View</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Contact Section ===== -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form id="contactForm">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 Baddem Athalya, All rights reserved.</p>
+      <div class="social-links">
+        <a href="https://github.com/AthalyaBaddem" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/baddem-athalya" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://x.com/athalya75" target="_blank" rel="noopener">Twitter</a>
+      </div> 
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
